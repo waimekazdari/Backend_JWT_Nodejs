@@ -156,7 +156,7 @@ app.post('/signUp', (req, res) => {
           sucess: false,
           token: null,
           users_id: null,
-          err: 'email or password is incorrect'
+          err: 'You are already authenicated'
       });
       res.send('You are already authenicated');
     }
