@@ -1,4 +1,5 @@
 this app is for JSON Web Token Authentication server
 
 To run this app :
-	step : node app (http://localhost:8080/)
+		step 1 : npm install
+		step 2 : node app (http://localhost:8080/)
