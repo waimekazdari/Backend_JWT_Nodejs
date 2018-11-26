@@ -82,7 +82,7 @@ app.post('/', (req, res) => {
             });
             break;
         }}
-      if(test === true) {
+      if(test === false) {
             res.status(401).json({
                 sucess: false,
                 token: null,
